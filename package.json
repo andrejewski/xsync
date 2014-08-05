@@ -1,0 +1,30 @@
+{
+  "name": "xsync",
+  "version": "0.0.1",
+  "description": "a/synchronous function checking",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-spec": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrejewski/xsync.git"
+  },
+  "keywords": [
+    "async",
+    "asynchronous",
+    "sync",
+    "synchronous",
+    "check"
+  ],
+  "author": "Chris Andrejewski <christopher.andrejewski@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrejewski/xsync/issues"
+  },
+  "homepage": "https://github.com/andrejewski/xsync",
+  "devDependencies": {
+    "mocha": "^1.21.3"
+  }
+}
